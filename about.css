@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: 100%;
+    background: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar .logo{
+    width: 110px;
+    height: auto;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+}
+
+
+.intro{
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.intro h2{
+    font-size: 65px;
+    color: brown ;
+}
+
+.intro h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.education-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:15px;
+    margin-top:30px;
+    width:85%;
+    margin-left: 120px;
+}
+
+.education-grid div{
+    padding:15px;
+    border:1px solid #999;
+    background:rgba(255,255,255,0.2);
+}
+
+.topic{
+    font-weight:bold;
+    background:#151515;
+    color:rgb(21, 18, 18);
+    text-align:center;
+}
+
+.title{
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.title h1{
+    font-size: 40px;
+    color: darkgreen;
+
+}
